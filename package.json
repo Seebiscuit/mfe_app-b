@@ -1,7 +1,7 @@
 {
-  "name": "mfe_app-b",
-  "version": "0.1.0",
-  "private": true,
+  "name": "@britecore/mfe_app-b",
+  "version": "0.1.1",
+  "description": "Part of the MFE POC. This package represents an independently working app that is intended as a module dependency in the mfe_container.",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
