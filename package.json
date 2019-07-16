@@ -1,6 +1,6 @@
 {
   "name": "@britecore/mfe_app-b",
-  "version": "0.1.26",
+  "version": "0.1.27",
   "description": "Part of the MFE POC. This package represents an independently working app that is intended as a module dependency in the mfe_container.",
   "main": "./index.js",
   "scripts": {
@@ -9,6 +9,7 @@
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
+    "@britecore/bc-design-system": "^1.13.1",
     "core-js": "^2.6.5",
     "vue": "^2.6.10",
     "vue-router": "^3.0.3",
