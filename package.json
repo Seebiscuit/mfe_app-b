@@ -1,7 +1,8 @@
 {
   "name": "@britecore/mfe_app-b",
-  "version": "0.1.2",
+  "version": "0.1.26",
   "description": "Part of the MFE POC. This package represents an independently working app that is intended as a module dependency in the mfe_container.",
+  "main": "./index.js",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
@@ -21,6 +22,5 @@
     "eslint": "^5.16.0",
     "eslint-plugin-vue": "^5.0.0",
     "vue-template-compiler": "^2.6.10"
-  },
-  "files": "dist"
+  }
 }

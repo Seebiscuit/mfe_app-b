@@ -1,8 +1,10 @@
 <template>
   <div id="app">
+    <h1>You're in App B</h1>
     <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
+       <router-link :to="{ name: 'view_a' }">ViewA</router-link> |
+      <router-link :to="{ name: 'app_b:view_b' }">ViewB</router-link> | 
+      <router-link :to="{ name: 'app_b:view_c' }">ViewB with ViewC</router-link>
     </div>
     <router-view/>
   </div>

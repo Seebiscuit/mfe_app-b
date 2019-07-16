@@ -1,4 +1,4 @@
-# mfe_app-b
+# mfe_app-a
 
 ## Project setup
 ```
