@@ -7,7 +7,7 @@ Vue.use(Router)
 export const routes = [
     {
       path: '',
-      name: 'view_a',
+      name: 'app_b:view_a',
       component: ViewA
     },
     {
